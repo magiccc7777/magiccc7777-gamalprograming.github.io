@@ -1,0 +1,299 @@
+body{
+background-image: url(wood.PNG);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: white;
+}
+.first{
+background-color: rgb(255, 254, 254);
+width: 20%;
+    border-radius: 8px;
+text-align: center;
+transform: translate(200%);
+color: black;
+text-shadow: blue;
+
+}
+.second{
+text-align: center;
+animation:movee 8s 1 ;
+color: rgb(121, 110, 44);
+}
+.course{
+color: gold;
+
+
+}
+.third{
+text-align: center;
+animation:movee 8s 1 ;
+
+}
+.fourth{
+text-align: center;
+animation:movee 8s 1 ;
+color: gold;
+
+}
+.fifth{
+text-align: center;
+animation:movee 8s 1 ;
+
+}
+.fourth2{
+color: rgb(121, 110, 44);
+text-align: center;
+}
+.fourth3{
+color: gold;
+text-align: center;
+
+}
+.seventh{
+text-align: center;
+animation:movee 8s 1 ;
+
+}
+.nav1{
+
+    text-align: center;
+    animation:movee 8s 1 ;
+    a{
+color: rgb(3, 3, 3);
+
+    }
+    background-color: gold;
+}
+.sixth{
+text-align: center;
+animation:movee 8s 1 ;
+}
+.nav2{
+text-align: center;
+
+a{
+color: brown;
+
+
+}
+background-color: rgb(255, 254, 254);
+width: 20%;
+transform: translate(200%);
+border-radius: 3%;
+
+}
+.img{
+transform: translate(110%,0%);
+    animation:magic 6s 1 ;
+border-radius: 3%;
+width: 30%;
+}
+.end{
+text-align: center;
+color: gold;
+}
+.en2{
+text-align: center;
+color: rgb(121, 110, 44);
+
+
+
+}
+.num1{
+text-align: center;
+color: rgb(4, 70, 98);
+
+}
+.num2{
+text-align: center;
+color: rgb(5, 72, 11);
+
+}
+.num3{
+text-align: center;
+color: gold;
+
+}
+.hero{
+text-align: center;
+color: brown;
+
+}
+.nav3{
+text-align: center;
+text-align: center;
+
+a{
+color: brown;
+
+
+}
+background-color: rgb(255, 254, 254);
+width: 30%;
+transform: translate(120%);
+border-radius: 3%;
+}
+.nav4{
+text-align: center;
+text-align: center;
+
+a{
+color: brown;
+
+
+}
+background-color: rgb(255, 254, 254);
+width: 20%;
+transform: translate(200%);
+border-radius: 3%;
+}
+.container{
+background-color: black;
+width: 50%;
+transform: translate(50%);
+animation:movee 8s 1 ;
+border-radius: 2%;
+box-shadow: blue;
+border: 2px solid  rgb(121, 110, 44);;
+}
+.week{
+color: rgb(121, 110, 44);
+
+
+}
+.wep{
+color: rgb(121, 110, 44);
+
+}
+.m4{
+color: rgb(121, 110, 44);
+
+}
+.seventh{
+color: rgb(121, 110, 44);
+
+}
+.built{
+color: rgb(121, 110, 44);
+}
+.link0{
+a{
+color: brown;
+
+
+}
+background-color: rgb(255, 254, 254);
+width: 20%;
+transform: translate(200%);
+border-radius: 3%;
+}
+.link1{
+a{
+color: brown;
+
+
+}
+background-color: rgb(255, 254, 254);
+width: 20%;
+transform: translate(200%);
+border-radius: 3%;
+}
+
+.link2{
+a{
+color: brown;
+
+
+}
+background-color: rgb(255, 254, 254);
+width: 20%;
+transform: translate(200%);
+border-radius: 3%;
+}
+
+
+
+
+@keyframes movee {
+0%{
+text-align: center;
+
+}
+25%{
+transform: translate(-1%,0%);
+
+
+
+}
+50%{
+transform: translate(-1%,0%);
+
+
+}
+100%{
+text-align: center;
+
+}
+
+}
+@keyframes magic {
+  0% {
+    transform: translateX(110%) translateY(100%);
+    opacity: 0;
+  }
+  20% {
+    transform: translateX(180%) translateY(-330%);
+    opacity: 1;
+  }
+  80% {
+    transform: translateX(180%) translateY(-330%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(110%) translateY(100%);
+    opacity: 0;
+  }
+
+
+
+}
+@media (max-width: 768px) {
+  body {
+    transform: scale(0.5);      /* صغّر الصفحة بنسبة 50% */
+    transform-origin: top left; /* خلي التصغير يبدأ من فوق شمال */
+    width: 200vw;               /* عشان ندي مساحة للعرض بعد التصغير */
+    height: auto;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 768px) {
+  @keyframes magic {
+    0% {
+      transform: translateX(100%) translateY(80%);
+      opacity: 0;
+    }
+    20% {
+      transform: translateX(102%) translateY(-550%);
+      opacity: 1;
+    }
+    80% {
+      transform: translateX(102%) translateY(-550%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(100%) translateY(80%);
+      opacity: 0;
+    }
+  }
+
+  .img {
+    animation: magic 6s 1;
+  width: 50%;
+  }
+  .link0{
+width: fit-content;
+transform: translate(70%,0%);
+
+  }
+}
