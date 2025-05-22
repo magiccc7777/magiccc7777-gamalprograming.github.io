@@ -13,7 +13,7 @@ text-align: center;
 transform: translate(200%);
 color: black;
 text-shadow: blue;
-
+animation: moves 6s 1;
 }
 .second{
 text-align: center;
@@ -71,7 +71,11 @@ animation:movee 8s 1 ;
 }
 .nav2{
 text-align: center;
+ul{
+color: black;
 
+
+}
 a{
 color: brown;
 
@@ -184,9 +188,15 @@ color: brown;
 
 }
 background-color: rgb(255, 254, 254);
-width: 20%;
-transform: translate(200%);
+width: 25%;
+transform: translate(150%);
 border-radius: 3%;
+}
+.link0 :hover{
+color: rgb(255, 254, 254);
+background-color: brown;
+
+
 }
 .link1{
 a{
@@ -199,7 +209,12 @@ width: 20%;
 transform: translate(200%);
 border-radius: 3%;
 }
+.link1 :hover{
+color: rgb(255, 254, 254);
+background-color: brown;
 
+
+}
 .link2{
 a{
 color: brown;
@@ -211,7 +226,12 @@ width: 20%;
 transform: translate(200%);
 border-radius: 3%;
 }
+.link2 :hover{
+color: rgb(255, 254, 254);
+background-color: brown;
 
+
+}
 
 
 
@@ -296,4 +316,27 @@ width: fit-content;
 transform: translate(70%,0%);
 
   }
+}
+@keyframes moves{
+0% {
+    transform: translateX(200%);
+   
+  }
+  20% {
+    transform: translateX(300%) ;
+   
+  }
+  80% {
+    transform: translateX(300%);
+    
+  }
+  100% {
+    transform: translateX(200%);
+    
+  }
+
+
+
+
+
 }
